@@ -37,6 +37,12 @@ with st.echo(code_location='below'):
     x='x:O',
     y='y:O',
     color='z:Q'
+), 
+                    
+                    alt.Chart(source).mark_rect().encode(
+    x='x:O',
+    y='y:O',
+    color='z:Q'
 )
         
         )
