@@ -32,7 +32,7 @@ with st.echo(code_location='below'):
                          'y': y.ravel(),
                          'z': z.ravel()})
 
-        st.altair_chart(alt.Chart(source).mark_rect().encode(
+    st.altair_chart(alt.Chart(source).mark_rect().encode(
     x='x:O',
     y='y:O',
     color='z:Q'
